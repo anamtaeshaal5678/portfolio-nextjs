@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-
+import Link from 'next/link';
 const About = () => {
   return (
     <div id='About'>
@@ -25,12 +25,12 @@ const About = () => {
           "Creative Responcive & User-Friendly Web Experiance"
         </p>
         <div className="flex justify-center">
-          <a href=''>
+          <Link href=''>
           <button className="inline-flex text-white bg-black
            border-0 py-2 px-6 focus:outline-none hover:bg-blue-700 rounded text-lg">
             View CV
           </button> 
-        </a>
+        </Link>
         </div>
       </div>
     </div>

@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Link from 'next/link';
 const Contact = () => {
   return (
     <div id="Contact">
@@ -32,7 +32,7 @@ e0!3m2!1sen!2s!4v1730134448364!5m2!1sen!2s"
           <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">
             EMAIL
           </h2>
-          <a className="text-indigo-500 leading-relaxed">M@gmail.com</a>
+          <Link href="" className="text-indigo-500 leading-relaxed">M@gmail.com</Link>
           <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">
             PHONE
           </h2>
@@ -81,12 +81,12 @@ Feel Free Contact
           defaultValue={""}
         />
       </div>
-      <a href='#Contact'>
+      <Link href='#Contact'>
       <button className="text-white bg-black border-0 py-2 px-6 focus:outline-none hover:bg-blue-700 rounded text-lg">
         Send Message
      <p className="text-xs text-gray-500 mt-3"></p>
       </button>
-      </a>
+      </Link>
     
     </div>
   </div>

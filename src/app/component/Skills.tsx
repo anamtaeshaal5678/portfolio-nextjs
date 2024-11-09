@@ -1,5 +1,5 @@
-import React from 'react'
-
+import React from "react"
+import Link from "next/link"
 const skills = () => {
     return (
         <div>
@@ -15,105 +15,104 @@ const skills = () => {
                             MY Skills
                         </h1>
                     </div>
-                    <div className='flex flex-wrap -m-4'>
+                    <div className="flex flex-wrap -m-4">
                         {/*skills*/}
-                        <div className=' p-4 md:w-1/3'>
-                            <div className='flex rounded-lg h-full bg-cyan-300 p-8 flex-col'>
-                                <div className='flex items-center mb-3'>
-                                    <div className='w-8 h-8 mr-3 inline-flex items-center justify-center
-                rounded-full bg-cyan-300 text-black flex-shrink-0'>
+                        <div className="p-4 md:w-1/3">
+                            <div className="flex rounded-lg h-full bg-cyan-300 p-8 flex-col">
+                                <div className="flex items-center mb-3">
+                                    <div className="w-8 h-8 mr-3 inline-flex items-center justify-center
+                rounded-full bg-cyan-300 text-black flex-shrink-0">
                                         
                                         
                                     </div>
-                                    <h2 className='text-black text-xl title-font font-extrabold'>
+                                    <h2 className="text-black text-xl title-font font-extrabold">
                                         HTML
                                     </h2>
                                 </div>
-                                <div className='flex-grow'>
-                                    <div className=' relative h-1 w-full bg-black rounded-xl'></div>
-                                    <div className='absolute bg-black h-1 rounded w-100%'></div>
-                                    <p className='font-bold text-black text-right'>100%</p>
+                                <div className="flex-grow">
+                                    <div className="relative rounded-xl"></div>
+                                    <div className="absolute bg-black h-1 w-80 rounded w-100%"></div>
+                                    <p className="font-bold text-2xl  text-black text-right">100%</p>
                                 </div>
                             </div>
-                        </div>
+                        </div> 
                         {/*skills*/}
-                        <div className=' p-4 md:w-1/3'>
-                            <div className='flex rounded-lg h-full bg-cyan-300 p-8 flex-col'>
-                                <div className='flex items-center mb-3'>
-                                    <div className='w-8 h-8 mr-3 inline-flex items-center justify-center
-                rounded-full bg-cyan-300 text-black flex-shrink-0'>
+                        <div className="p-4 md:w-1/3">
+                            <div className="flex rounded-lg h-full bg-cyan-300 p-8 flex-col">
+                                <div className="flex items-center mb-3">
+                                    <div className="w-8 h-8 mr-3 inline-flex items-center justify-center
+                rounded-full bg-cyan-300 text-black flex-shrink-0">
                                         
                                     </div>
-                                    <h2 className='text-black text-xl title-font font-extrabold'>
+                                    <h2 className="text-black text-xl title-font font-extrabold">
                                         CSS
                                     </h2>
                                 </div>
-                                <div className='flex-grow'>
-                                    <div className=' relative h-1 w-full bg-black rounded-xl'></div>
-                                    <div className='absolute bg-black h-1 rounded w-100%'></div>
-                                    <p className='font-bold text-black text-right'>100%</p>
+                                <div className="flex-grow">
+                                    <div className="relative h-1 w-full bg-black rounded-xl"></div>
+                                    <div className="absolute bg-black h-1 rounded w-100%"></div>
+                                    <p className="font-bold text-2xl text-black text-right">100%</p>
                                 </div>
                             </div>
                         </div>
-
 {/*skills*/}
-<div className=' p-4 md:w-1/3'>
-                            <div className='flex rounded-lg h-full bg-cyan-300 p-8 flex-col'>
-                                <div className='flex items-center mb-3'>
-                                    <div className='w-8 h-8 mr-3 inline-flex items-center justify-center
-                rounded-full bg-cyan-300 text-black flex-shrink-0'>
+<div className="p-4 md:w-1/3">
+                            <div className="flex rounded-lg h-full bg-cyan-300 p-8 flex-col">
+                                <div className="flex items-center mb-3">
+                                    <div className="w-8 h-8 mr-3 inline-flex items-center justify-center
+                rounded-full bg-cyan-300 text-black flex-shrink-0">
                                         
                                     </div>
                                     <h2 className='text-black text-xl title-font font-extrabold'>
                                  JAVASCRIPET
                                     </h2>
                                 </div>
-                                <div className='flex-grow'>
-                                    <div className=' relative h-1 w-full bg-black rounded-xl'></div>
-                                    <div className='absolute bg-black h-1 rounded w-100%'></div>
-                                    <p className='font-bold text-black text-right'>100%</p>
+                                <div className="flex-grow">
+                                    <div className="relative h-1 w-full bg-black rounded-xl"> </div>
+                                    <div className="absolute bg-black h-1 rounded w-100%"></div>
+                                    <p className="font-bold text-2xl text-black text-right">100%</p>
                                 </div>
                             </div>
                         </div>
 
 
 {/*skills*/}
-<div className=' p-4 md:w-1/3'>
-                            <div className='flex rounded-lg h-full bg-cyan-300 p-8 flex-col'>
-                                <div className='flex items-center mb-3'>
-                                    <div className='w-8 h-8 mr-3 inline-flex items-center justify-center
-                rounded-full bg-cyan-300 text-black flex-shrink-0'>
+<div className="p-4 md:w-1/3">
+                            <div className="flex rounded-lg h-full bg-cyan-300 p-8 flex-col">
+                                <div className="flex items-center mb-3">
+                                    <div className="w-8 h-8 mr-3 inline-flex items-center justify-center
+                rounded-full bg-cyan-300 text-black flex-shrink-0">
                                         
                                     </div>
-                                    <h2 className='text-black text-xl title-font font-extrabold'>
+                                    <h2 className="text-black text-xl title-font font-extrabold">
                                 JAVASCRIPT
                                     </h2>
                                 </div>
-                                <div className='flex-grow'>
-                                    <div className=' relative h-1 w-full bg-black rounded-xl'></div>
-                                    <div className='absolute bg-black h-1 rounded w-100%'></div>
-                                    <p className='font-bold text-black text-right'>100%</p>
+                                <div className="flex-grow">
+                                    <div className="relative h-1 w-full bg-black rounded-xl"></div>
+                                    <div className="absolute bg-black h-1 rounded w-100%"></div>
+                                    <p className="font-bold text-2xl text-black text-right">100%</p>
                                 </div>
                             </div>
                         </div>
 
 
                         {/*skills*/}
-<div className=' p-4 md:w-1/3'>
-                            <div className='flex rounded-lg h-full bg-cyan-300 p-8 flex-col'>
-                                <div className='flex items-center mb-3'>
-                                    <div className='w-8 h-8 mr-3 inline-flex items-center justify-center
-                rounded-full bg-cyan-300 text-black flex-shrink-0'>
+<div className="p-4 md:w-1/3">
+                            <div className="flex rounded-lg h-full bg-cyan-300 p-8 flex-col">
+                                <div className="flex items-center mb-3">
+                                    <div className="w-8 h-8 mr-3 inline-flex items-center justify-center
+                rounded-full bg-cyan-300 text-black flex-shrink-0">
                                         
                                     </div>
-                                    <h2 className='text-black text-xl title-font font-extrabold'>
+                                    <h2 className="text-black text-xl title-font font-extrabold">
                         NEXT.JS
                                     </h2>
                                 </div>
-                                <div className='flex-grow'>
-                                    <div className=' relative h-1 w-full bg-black rounded-xl'></div>
-                                    <div className='absolute bg-black h-1 rounded w-100%'></div>
-                                    <p className='font-bold text-black text-right'>100%</p>
+                                <div className="flex-grow">
+                                    <div className="relative h-1 w-full bg-black rounded-xl"></div>
+                                    <div className="absolute bg-black h-1 rounded w-100%"></div>
+                                    <p className="font-bold  text-2xl text-black text-right">100%</p>
                                 </div>
                             </div>
                         </div>
