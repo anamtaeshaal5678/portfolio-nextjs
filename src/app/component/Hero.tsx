@@ -18,7 +18,7 @@ const Hero = () => {
           </h1>
           <div className="w-[350x] h-[4px] bg-gray-950"></div>
           <p className="mb-8 leading-relaxed">
-            I'm a passionate web develpor with a strong foundation in  creating responsive,user-friendly websites and applications
+            I&apos;m a passionate web develpor with a strong foundation in  creating responsive,user-friendly websites and applications
           </p>
           <div className="flex justify-center">
             <link href="#Contact"/>

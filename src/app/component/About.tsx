@@ -22,7 +22,7 @@ const About = () => {
         Completed My Greaducation
         </h1>
         <p className="mb-5 leading-relaxed">
-          "Creative Responcive & User-Friendly Web Experiance"
+          &quot;Creative Responcive & User-Friendly Web Experiance&quot;
         </p>
         <div className="flex justify-center">
           <Link href=''>
